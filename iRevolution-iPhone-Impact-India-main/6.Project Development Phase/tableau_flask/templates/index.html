@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iRevolution - Apple iPhone Impact</title>
+
+    <!-- CSS -->
+    <link href="{{ url_for('static', filename='assets/css/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+
+    <div class="header-container">
+        <img src="{{ url_for('static', filename='assets/img/apple_logo.png') }}" class="logo">
+
+        <h1 class="title">
+            iRevolution: A Data-driven Exploration of Apple's iPhone Impact in India using Tableau
+        </h1>
+    </div>
+
+</header>
+
+
+    <!-- ===== INTRO SECTION ===== -->
+    <section class="intro">
+        <div class="intro-container">
+
+            <div class="founder">
+                <img src="{{ url_for('static', filename='assets/img/steve_jobs.jpg') }}" class="founder-img">
+                <h2>Steve Jobs</h2>
+                <p>Co-founder of Apple Inc. and visionary behind the iPhone revolution.</p>
+            </div>
+
+            <div class="content">
+                <h2>About iPhone</h2>
+                <p>
+                    The Apple iPhone, launched in 2007, changed the global smartphone industry.
+                    It combined a phone, iPod, and internet communication device into one.
+                </p>
+
+                <h2>Popular Models</h2>
+                <ul>
+                    <li>iPhone 4 - First Retina Display</li>
+                    <li>iPhone 6 - Larger screen revolution</li>
+                    <li>iPhone X - Face ID innovation</li>
+                    <li>iPhone 13 & 14 - Performance and camera evolution</li>
+                </ul>
+
+                <h2>Impact of iPhone in India</h2>
+    <p>
+        The iPhone has played a significant role in shaping India's premium smartphone market.
+        It has influenced consumer aspirations, digital adoption, and mobile-based lifestyles.
+        With the growth of online payments, e-commerce, and OTT platforms, iPhones have
+        become a symbol of innovation and status among Indian users.
+    </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== DASHBOARD BUTTON ===== -->
+    <section class="dashboard-btn-section">
+        <a href="#dashboard" class="dashboard-btn">View Dashboard</a>
+    </section>
+
+    <!-- ===== TABLEAU DASHBOARD ===== -->
+    <section id="dashboard" class="dashboard-section">
+
+        <h2>Apple iPhone Sales Dashboard</h2>
+
+        <div class="tableau-container">
+
+            <iframe
+                src="https://public.tableau.com/views/apple_sales/Dashboard1?:embed=true&:display_count=no&:showVizHome=no"
+                width="100%"
+                height="650"
+                frameborder="0">
+            </iframe>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

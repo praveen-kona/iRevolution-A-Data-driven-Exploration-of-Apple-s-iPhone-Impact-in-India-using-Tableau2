@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:white;
+}
+
+/* HEADER */
+.header {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* INTRO SECTION */
+.intro {
+    padding: 40px;
+}
+
+.intro-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Founder */
+.founder {
+    text-align: center;
+}
+
+.founder-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+/* Content */
+.content {
+    max-width: 600px;
+}
+
+/* DASHBOARD BUTTON */
+.dashboard-btn-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dashboard-btn {
+    background: #007bff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dashboard-btn:hover {
+    background: #0056b3;
+}
+
+/* DASHBOARD */
+.dashboard-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.tableau-container {
+    width: 90%;
+    margin: auto;
+}
